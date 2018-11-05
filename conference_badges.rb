@@ -14,3 +14,7 @@ def batch_badge_creator(attendees)
                   "Hello, my name is Matz."
   return (badges)
 end
+
+def batch_badge_creator(johnny)
+  return "Hello, my name is Johnny."
+end
