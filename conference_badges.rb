@@ -3,6 +3,10 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
+def batch_badge_creator(johhny)
+  return ["Hello, my name is Johnny."]
+end
+
 def batch_badge_creator(attendees)
   attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   badges = "Hello, my name is Edsger.",
@@ -15,6 +19,3 @@ def batch_badge_creator(attendees)
   return (badges)
 end
 
-def batch_badge_creator(johhny)
-  return ["Hello, my name is Johnny."]
-end
