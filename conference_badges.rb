@@ -12,11 +12,10 @@ def batch_badge_creator(attendees)
                   "Hello, my name is Grace.",
                   "Hello, my name is Linus.",
                   "Hello, my name is Matz."
-  badges == attendees
   return (badges)
 end
 
 def batch_badge_creator(johnny)
-  johnny = "Johnny"
+  johnny == "Johnny"
   return "Hello, my name is Johnny."
 end
