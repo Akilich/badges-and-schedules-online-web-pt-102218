@@ -15,5 +15,6 @@ def batch_badge_creator(attendees)
   return (badges)
 end
 
-def batch_badge_creator(["johhny"])
+def batch_badge_creator([johhny])
   return ["Hello, my name is Johnny."]
+end
