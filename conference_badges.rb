@@ -17,6 +17,6 @@ def batch_badge_creator(attendees)
 end
 
 def batch_badge_creator(johnny)
-  johnny == "Johnny"
-  return "Hello, my name is Johnny."
+  name = "Johnny"
+  return "Hello, my name is #{name}."
 end
